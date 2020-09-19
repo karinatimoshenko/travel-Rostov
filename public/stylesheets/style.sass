@@ -1,0 +1,169 @@
+@import 'node_modules/bootstrap/scss/bootstrap'
+@import 'node_modules/bootstrap-vue/src/index.scss'
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap')
+
+$font-family-sans-serif:  'Open Sans', sans-serif !default
+$font-size-base: 0.9375rem  !default // Assumes the browser default, typically `15px`
+
+$color: #27402F
+$color2: #C4EAB6
+$color3: #E6E9EB
+$color4: #B4281E
+$color5: #2d4441
+$color6: #364967
+
+body
+  background-color: $color3
+
+ul
+  list-style: none
+
+.header
+  .brand
+    img
+      height: 100px
+  .header-right-items
+    width: 80%
+  .bg-dark
+    background-color: $color5 !important
+    background: linear-gradient(to top, #D5544B, #e9cd57, #1578d0) !important
+  a
+    font-weight: 400
+    text-transform: uppercase
+    letter-spacing: 0.1em
+  button
+    background-color: $color4 !important
+    color: $color3
+    width: 80px
+    height: 35px
+    box-shadow: 0px 3px 35px 0px rgba(50,58,76,0.12)
+    border-radius: 5px
+    border: 0px
+  button:hover
+    background-color: #ef0d00 !important
+    color: $color3
+  a:hover
+    color: $color4 !important
+  .has-search .form-control
+    padding-left: 2.375rem
+  .has-search .form-control-feedback
+    position: absolute
+    z-index: 2
+    display: block
+    width: 2.375rem
+    height: 2.375rem
+    line-height: 2.375rem
+    text-align: center
+    pointer-events: none
+    color: #aaa
+  input
+    width: 200px
+    height: 35px
+  img
+    height: 50px
+  i
+    font-size: 22px
+    color: $color6
+  i:hover
+    color: $color3
+
+.img-fluid
+  height: 480px !important
+
+.menu
+  color: $color4
+  font-size: 15px
+  font-weight: 200 !important
+  letter-spacing: 0.2em
+  margin-left: auto
+  a
+    color: #ffffff !important
+    padding-left: 3rem
+  a:hover
+    text-decoration: none
+    color: $color5 !important
+
+.main
+  background-color: $color3
+  .main-background
+    background-color: #364967
+    color: $color3
+    .text-about-rostov
+      width: 70%
+      margin-right: auto
+      margin-left: auto
+      padding-top: 3rem
+      padding-bottom: 3rem
+    i
+      font-size: 22px
+      width: 30px
+      margin-right: 2rem
+    a
+      color: $color3 !important
+      line-height: 3rem !important
+      padding: 1rem
+      font-variant: small-caps
+    a:hover
+      background: #D5544B
+      border-radius: 1rem
+      padding: 1rem
+      color: $color !important
+      background: linear-gradient(to top, #D5544B, #e9cd57, #1578d0) !important
+      text-decoration: none
+  .showplace-card
+    display: inline-flex
+    box-shadow: 0px 3px 35px 0px rgba(50,58,76,0.12)
+    width: 30%
+    border: 1.0px solid #e6e6e6
+    border-radius: 4.0px
+    overflow: hidden
+    img
+      width: 100%
+      max-height: 280px
+      display: block
+      object-fit: cover
+  .showplace-card:hover
+    img
+      opacity: 0.7
+  .icon-route
+    height: 20px
+    width: 20px
+
+.footer
+  padding: 3rem 3rem
+  width: 80%
+  margin-left: auto
+  margin-right: auto
+  a
+    line-height: 22px
+    color: $color
+    font-weight: 400
+    font-size: 15px
+    font-variant: small-caps
+  a:hover
+    text-decoration: none
+    color: #000000
+
+.about
+  background-color: $color6
+  color: #F2CEAA
+  padding-bottom: 4rem
+  .front-img
+    max-height: 400px
+  img
+    width: 100%
+    max-height: 300px
+    display: block
+    object-fit: cover
+  h3
+    font-variant: small-caps
+    strong
+      color: $color4
+      font-size: 2.5rem
+  p
+    text-indent: 20px
+  .about-area
+    width: 80%
+    margin-left: auto
+    margin-right: auto
+
