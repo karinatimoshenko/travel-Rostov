@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-
-</head>
-
+<%- include('layout/head') %>
 <body>
     <div id="vue">
-        <header-main></header-main>
+        <%- include('layout/header') %>
             <div class="about">
                 <div class="about-area">
                    <h3 class="pb-2 pt-5 border-bottom p-2">
                        <strong>|</strong> О Ростовской области</h3>
-                    <img src="/images/showplace/front.jpg" class="front-img mt-2"/>
+                    <img src="/images/showplace/front.jpg" class="front-img mt-2" alt="img-rostov"/>
                     <div class="text-justify m-3">
                         <p>Ростовская область — южные ворота России.
                             Это место, где переплетаются богатейшая история и культура,
@@ -36,75 +30,74 @@
                         <h5 class="p-3 border-bottom border-top">Казачий колорит и история Тихого Дона</h5>
                         <b-row>
                             <b-col>
-                                <img src="/images/showplace/18.jpg" class="mt-2"/>
+                                <img src="/images/showplace/18.jpg" class="mt-2" alt="img"/>
                                 <small>станица Вешенская, памятник "Григорий и Аксинья"</small>
                             </b-col>
                             <b-col>
-                                <img src="/images/showplace/kazaki.jpg" class="mt-2"/>
+                                <img src="/images/showplace/kazaki.jpg" class="mt-2" alt="img"/>
                                 <small>Государственный музей-заповедник М. А. Шолохова / Сергей Бугаев</small>
                             </b-col>
                         </b-row>
                         <h5 class="p-3 border-bottom border-top mt-3">Донская кухня и виноделие</h5>
                         <b-row>
                             <b-col>
-                                <img src="/images/showplace/15.jpg" class="mt-2"/>
+                                <img src="/images/showplace/15.jpg" class="mt-2" alt="img"/>
                                 <small>Донские вареные раки</small>
                             </b-col>
                             <b-col>
-                                <img src="/images/showplace/16.jpg" class="mt-2"/>
+                                <img src="/images/showplace/16.jpg" class="mt-2" alt="img"/>
                                 <small>Вина из винограда, выращенного на Дону</small>
                             </b-col>
                         </b-row>
                         <h5 class="p-3 border-bottom border-top mt-3">Богатое историческое наследие</h5>
                         <b-row>
                             <b-col>
-                                <img src="/images/showplace/12.jpeg" class="mt-2"/>
+                                <img src="/images/showplace/12.jpeg" class="mt-2" alt="img"/>
                                 <small>Мемориал Славы на Самбекских высотах</small>
                             </b-col>
                             <b-col>
-                                <img src="/images/showplace/kumga.jpeg" class="mt-2"/>
+                                <img src="/images/showplace/kumga.jpeg" class="mt-2" alt="img"/>
                                 <small>Этнокомплекс "Кумжа"</small>
                             </b-col>
                         </b-row>
                         <h5 class="p-3 border-bottom border-top mt-3">Место романтики и отдыха</h5>
                         <b-row>
                             <b-col>
-                                <img src="/images/showplace/merganovo.jpg" class="mt-2"/>
+                                <img src="/images/showplace/merganovo.jpg" class="mt-2" alt="img"/>
                                 <small>Мержаново — хутор в Неклиновском районе</small>
                             </b-col>
                             <b-col>
-                                <img src="/images/showplace/kamensk-eldorado.jpg" class="mt-2"/>
+                                <img src="/images/showplace/kamensk-eldorado.jpg" class="mt-2" alt="img"/>
                                 <small>База отдыха «Эльдорадо». Каменск-Шахтинский</small>
                             </b-col>
                         </b-row>
                         <h5 class="p-3 border-bottom border-top mt-3">Живописные места</h5>
                         <b-row>
                             <b-col>
-                                <img src="/images/showplace/nature.jpg" class="mt-2"/>
+                                <img src="/images/showplace/nature.jpg" class="mt-2" alt="img"/>
                                 <small>Можайские пруды. Ростов-на-Дону</small>
                             </b-col>
                             <b-col>
-                                <img src="/images/showplace/hutor.jpg" class="mt-2"/>
+                                <img src="/images/showplace/hutor.jpg" class="mt-2" alt="img"/>
                                 <small>хутор Cтарозолотовский</small>
                             </b-col>
                         </b-row>
                         <h5 class="p-3 border-bottom border-top mt-3">Cоборы и памятники архитектуры</h5>
                         <b-row>
                             <b-col>
-                                <img src="/images/showplace/vosnesensky2.jpg" class="mt-2"/>
+                                <img src="/images/showplace/vosnesensky2.jpg" class="mt-2" alt="img"/>
                                 <small>Новочеркасский Свято-Вознесенский кафедральный собор</small>
                             </b-col>
                             <b-col>
-                                <img src="/images/showplace/kafendralny-sobor.jpeg" class="mt-2"/>
+                                <img src="/images/showplace/kafendralny-sobor.jpeg" class="mt-2" alt="img"/>
                                 <small>Кафедральный собор Рождества Пресвятой Богородицы</small>
                             </b-col>
                         </b-row>
                     </div>
                     </div>
             </div>
-        <footer-main></footer-main>
+        <%- include('layout/footer') %>
     </div>
 </body>
-<script src="/javascripts/vue.js"></script>
-<script src="https://kit.fontawesome.com/48a1fc7216.js" crossorigin="anonymous"></script>
+<%- include('layout/scripts') %>
 </html>

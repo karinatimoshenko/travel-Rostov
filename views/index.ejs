@@ -1,19 +1,12 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-
-</head>
-
+<%- include('layout/head') %>
 <body>
     <div id="vue">
-        <header-main></header-main>
+        <%- include('layout/header') %>
             <main-page></main-page>
-        <footer-main></footer-main>
+        <%- include('layout/footer') %>
     </div>
 </body>
-<script src="/javascripts/vue.js"></script>
-<script src="https://kit.fontawesome.com/48a1fc7216.js" crossorigin="anonymous"></script>
+<%- include('layout/scripts') %>
 </html>

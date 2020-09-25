@@ -6,7 +6,6 @@
         :interval="4000"
         controls
         indicators
-        background="#ababab"
         img-width="1024"
         img-height="480"
         style="text-shadow: 1px 1px 2px #333;"
@@ -15,7 +14,7 @@
     >
       <b-carousel-slide img-src="/images/banner/8.jpg">
         <h1>Интересные места Ростовской области</h1>
-        <b-button variant="danger">ОТКРЫТЬ</b-button>
+        <b-button variant="danger" href="/showplace">ОТКРЫТЬ</b-button>
       </b-carousel-slide>
 
       <b-carousel-slide img-src="/images/banner/2.jpg">
@@ -30,12 +29,12 @@
 
       <b-carousel-slide img-src="/images/banner/1.jpg">
         <h1>Построение индивидуальных маршрутов</h1>
-        <b-button variant="danger">ОТКРЫТЬ</b-button>
+        <b-button variant="danger" href="/special-route">ОТКРЫТЬ</b-button>
       </b-carousel-slide>
     </b-carousel>
     <div class="main-background">
         <div class="text-about-rostov text-center">
-            <i class="fas fa-caret-down pb-5" v-for="n in 5 "></i> <br>
+            <i class="fas fa-caret-down pb-5" v-for="n in 5 " :key="n.id"></i> <br>
             <span>Ростовская область — край с богатой историей.
             Донские степи помнят не только казаков, но и скифов, сарматов, греков.
             Здесь протекает одна из крупнейших рек Европы — Дон, прославленный творчеством Михаила Шолохова,
@@ -46,7 +45,7 @@
         </div>
     </div>
     <div class="text-center pb-5">
-      <h3 class="m-5">ДОСТОПРИМЕЧАТЕЛЬНОСТИ РОСТОВСКОЙ ОБЛАСТИ</h3>
+      <h3 class="m-5"><a href="/showplaces">ДОСТОПРИМЕЧАТЕЛЬНОСТИ РОСТОВСКОЙ ОБЛАСТИ</a></h3>
       <div class="align-self-center">
         <div v-for="product in 6"
              :key="product.id"
@@ -66,7 +65,9 @@
       </div>
     </div>
     <div class="main-background text-center p-3">
-      <h3 class="m-5">МАРШРУТЫ ДЛЯ ТУРИЗМА ПО РОСТОВСКОЙ ОБЛАСТИ</h3>
+      <h3 class="m-5"> <a href="/routes" class="title-main-routes">
+        МАРШРУТЫ ДЛЯ ТУРИЗМА ПО РОСТОВСКОЙ ОБЛАСТИ</a>
+      </h3>
       <b-row class="text-left m-0 mb-5">
         <b-col>
           <ul>
@@ -103,7 +104,7 @@
               <a href="#"><i class="fas fa-mug-hot"></i><strong>Традиции</strong></a>
             </li>
             <li>
-              <a href="#"><i class="fas fa-campground"></i><strong>Индивидуальные маршруты</strong></a>
+              <a href="/special-route"><i class="fas fa-campground"></i><strong>Индивидуальные маршруты</strong></a>
             </li>
           </ul>
         </b-col>

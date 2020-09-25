@@ -1,7 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="67877137-0002-4964-b516-6c8bf9540895" name="Default Changelist" comment="" />
+    <list default="true" id="67877137-0002-4964-b516-6c8bf9540895" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/views/component_vue/header-main.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/component_vue/route-details.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/component_vue/routes.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/component_vue/showplace-details.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/component_vue/showplaces.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/component_vue/special-route.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/layout/footer.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/layout/head.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/layout/header.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/layout/scripts.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/route-details.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/showplace-details.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/showplaces.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/special-route.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vue-main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/vue-main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/hram-ioanna-kronshtadtskogo-rostov-na-donu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/hram-v-chestj-ikoni-bozhiej-materi-vseh-skorbyaschih-rostov-na-donu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/showplace/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/showplace/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/showplace/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/vid-goroda.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/javascripts/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/about.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/about.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/component_vue/footer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/component_vue/header.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/component_vue/main-page.vue" beforeDir="false" afterPath="$PROJECT_DIR$/views/component_vue/main-page.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/showplace.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/routes.ejs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,9 +74,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views" />
+      <recent name="$PROJECT_DIR$/views/component_vue" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -33,11 +92,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600505568934</updated>
-      <workItem from="1600505570477" duration="649000" />
+      <workItem from="1600505570477" duration="1748000" />
+      <workItem from="1600755448377" duration="6158000" />
+      <workItem from="1600763852752" duration="19513000" />
+      <workItem from="1600856892581" duration="47270000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="147" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600759187692">
+      <screen x="60" y="27" width="1306" height="741" />
+    </state>
+    <state x="446" y="147" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/60.27.1306.741@60.27.1306.741" timestamp="1600759187692" />
+    <state x="496" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1601023684055">
+      <screen x="60" y="27" width="1306" height="741" />
+    </state>
+    <state x="496" y="155" width="424" height="491" key="FileChooserDialogImpl/60.27.1306.741@60.27.1306.741" timestamp="1601023684055" />
+    <state x="461" y="103" width="493" height="595" key="RollbackChangesDialog" timestamp="1600851027236">
+      <screen x="60" y="27" width="1306" height="741" />
+    </state>
+    <state x="461" y="103" width="493" height="595" key="RollbackChangesDialog/60.27.1306.741@60.27.1306.741" timestamp="1600851027236" />
+    <state x="308" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600507085766">
+      <screen x="60" y="27" width="1306" height="741" />
+    </state>
+    <state x="308" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/60.27.1306.741@60.27.1306.741" timestamp="1600507085766" />
+    <state x="377" y="174" key="run.anything.popup" timestamp="1600766487179">
+      <screen x="60" y="27" width="1306" height="741" />
+    </state>
+    <state x="377" y="174" key="run.anything.popup/60.27.1306.741@60.27.1306.741" timestamp="1600766487179" />
   </component>
 </project>

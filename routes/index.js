@@ -6,13 +6,28 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Главная'});
 });
 
-router.get('/showplace', function(req, res, next) {
-  res.render('showplace', { title: 'Достопримечательности'});
+router.get('/showplaces', function(req, res, next) {
+  res.render('showplaces', { title: 'Достопримечательности'});
 });
 
 router.get('/about', function(req, res, next) {
   res.render('about', { title: 'О Ростовской области'});
 });
 
+router.get('/special-route', function(req, res, next) {
+  res.render('special-route', { title: 'Индивидуальный маршрут'});
+});
+
+router.get('/showplace-details', function(req, res, next) {
+  res.render('showplace-details', { title: 'Достопримечательность'});/* title поменять на названеи достопримечательности. */
+});
+
+router.get('/routes', function(req, res, next) {
+  res.render('routes', { title: 'Маршруты'});
+});
+
+router.get('/route-details', function(req, res, next) {
+  res.render('route-details', { title: 'Маршрут'});/* title поменять на названеи маршрута. */
+});
 
 module.exports = router;
