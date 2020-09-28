@@ -25,6 +25,7 @@ Vue.component('showplaces', require('../views/component_vue/showplaces.vue').def
 Vue.component('showplace-details', require('../views/component_vue/showplace-details.vue').default);
 Vue.component('routes', require('../views/component_vue/routes.vue').default);
 Vue.component('route-details', require('../views/component_vue/route-details.vue').default);
+Vue.component('event-details', require('../views/component_vue/event-details.vue').default);
 
 const app = new Vue({
     el: '#vue',

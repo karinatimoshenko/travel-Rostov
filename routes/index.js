@@ -30,4 +30,12 @@ router.get('/route-details', function(req, res, next) {
   res.render('route-details', { title: 'Маршрут'});/* title поменять на названеи маршрута. */
 });
 
+router.get('/event-details', function(req, res, next) {
+  res.render('event-details', { title: 'Событие-детали'});/* title поменять на названеи маршрута. */
+});
+
+router.get('/events', function(req, res, next) {
+  res.render('events', { title: 'События'});
+});
+
 module.exports = router;

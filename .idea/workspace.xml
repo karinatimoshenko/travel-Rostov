@@ -20,40 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67877137-0002-4964-b516-6c8bf9540895" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/component_vue/header-main.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/component_vue/route-details.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/component_vue/routes.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/component_vue/showplace-details.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/component_vue/showplaces.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/component_vue/special-route.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/layout/footer.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/layout/head.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/layout/header.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/layout/scripts.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/route-details.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/showplace-details.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/showplaces.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/special-route.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/component_vue/event-details.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/component_vue/events.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/event-details.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/events.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/vue-main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/vue-main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/hram-ioanna-kronshtadtskogo-rostov-na-donu.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/hram-v-chestj-ikoni-bozhiej-materi-vseh-skorbyaschih-rostov-na-donu.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/showplace/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/showplace/10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/showplace/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/vid-goroda.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/javascripts/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/vue.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/about.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/about.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/component_vue/footer.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/component_vue/header.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/component_vue/main-page.vue" beforeDir="false" afterPath="$PROJECT_DIR$/views/component_vue/main-page.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/showplace.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/routes.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/component_vue/header-main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/views/component_vue/header-main.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,14 +52,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/component_vue" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/views" />
       <recent name="$PROJECT_DIR$/views/component_vue" />
+      <recent name="$PROJECT_DIR$/views" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -96,6 +74,7 @@
       <workItem from="1600755448377" duration="6158000" />
       <workItem from="1600763852752" duration="19513000" />
       <workItem from="1600856892581" duration="47270000" />
+      <workItem from="1601298677446" duration="4189000" />
     </task>
     <servers />
   </component>

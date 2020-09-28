@@ -438,5 +438,36 @@ ul
     border: 5px solid $color4
     border-radius: 50px
 
+.events
+  .events-card
+    @extend %card
+    .card-title
+      color: $color4
+      background-color: #ffffff
+      border: 0
+      box-shadow: none
+      overflow: hidden
+  .events-card img
+    width: 100%
+    transition: 0.5s all ease-in-out
+  .events-card:hover img
+    transform: scale(1.1)
+  .card-body
+    padding: 0
+  span
+    font-weight: 500
+    font-size: 18px
+    font-variant: small-caps
+
+.events-date
+  h1
+    font-weight: 800
+  h5
+    font-weight: 700
+    margin-left: 2rem
+  strong
+    color: $color4
+
+
 
 

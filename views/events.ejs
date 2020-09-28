@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<%- include('layout/head') %>
+<body>
+<div id="vue">
+    <%- include('layout/header') %>
+    <div>
+        <div class="events">
+            <img src="/images/showplace/top.jpg" alt="" class="banner"/>
+
+            <div class="filter pb-5 pt-5 border-bottom m-0 text-center">
+                <span class="text-white mr-3">Выберите дату или период:</span>
+                <input type="date" name="calendar" value="Выберите дату или период">
+            </div>
+            <div class="text-center mt-5 pb-5">
+                <div v-for="product in 6"
+                     :key="product.id"
+                     class="events-card m-2"
+                >
+                    <a href="/event-details" class="card-link">
+                        <b-card
+                                overlay
+                                img-src="/images/showplace/7.jpg"
+                                img-alt="events-img"
+                                text-variant="white"
+                                title="28 сентября 2020 года"
+                        >
+                            <div class="description p-1">
+                                <h4>Казачье гулянье</h4>
+                            </div>
+                        </b-card>
+                    </a>
+                </div>
+            </div>
+            <div class="filter p-5"></div>
+        </div>
+    </div>
+    <%- include('layout/footer') %>
+</div>
+</body>
+<%- include('layout/scripts') %>
+</html>

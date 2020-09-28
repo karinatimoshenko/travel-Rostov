@@ -23,7 +23,7 @@
         <b-row class="m-0 align-items-end">
           <div class="menu text-left">
             <a href="/showplaces">Достопримечательности</a>
-            <a href="#">События</a>
+            <a href="/events">События</a>
             <a href="/routes">Маршруты</a>
             <a href="#" class="mr-3">Новости</a>
           </div>

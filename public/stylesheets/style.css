@@ -9198,14 +9198,14 @@ ul {
   .special-route .count-people {
     width: 30%; }
 
-.showplace-card, .showplace .showplace-card, .routes .routes-card {
+.showplace-card, .showplace .showplace-card, .routes .routes-card, .events .events-card {
   display: inline-flex;
   box-shadow: 0 3px 35px 0 rgba(50, 58, 76, 0.12);
   width: 30%;
   border: 1.0px solid #e6e6e6;
   border-radius: 4.0px;
   overflow: hidden; }
-  .showplace-card img, .showplace .showplace-card img, .routes .routes-card img {
+  .showplace-card img, .showplace .showplace-card img, .routes .routes-card img, .events .events-card img {
     width: 100%;
     max-height: 280px;
     display: block;
@@ -9398,5 +9398,37 @@ ul {
   margin-right: 10px;
   border: 5px solid #B4281E;
   border-radius: 50px; }
+
+.events .events-card .card-title {
+  color: #B4281E;
+  background-color: #ffffff;
+  border: 0;
+  box-shadow: none;
+  overflow: hidden; }
+
+.events .events-card img {
+  width: 100%;
+  transition: 0.5s all ease-in-out; }
+
+.events .events-card:hover img {
+  transform: scale(1.1); }
+
+.events .card-body {
+  padding: 0; }
+
+.events span {
+  font-weight: 500;
+  font-size: 18px;
+  font-variant: small-caps; }
+
+.events-date h1 {
+  font-weight: 800; }
+
+.events-date h5 {
+  font-weight: 700;
+  margin-left: 2rem; }
+
+.events-date strong {
+  color: #B4281E; }
 
 /*# sourceMappingURL=style.css.map */
